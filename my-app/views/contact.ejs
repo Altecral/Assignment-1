@@ -1,0 +1,49 @@
+<!-- Alejandro Manrique, 301230671, 06/15/2023 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Portfolio</title>
+    <%- include('partials/styles') %>
+</head>
+<body>
+    <%- include('partials/navbar') %>  
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Contact information:</p>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <p><strong>Name:</strong> Alejandro</p>
+                <p><strong>Email:</strong> amanriq1@my.centennialcollege.ca</p>
+                <p><strong>Phone:</strong> 416-289-5000</p>
+                <p><strong>Address:</strong> P.O. Box 631 Station A Toronto, ON, M1K 5E9 </p>
+            </div>
+        </div>
+        <form id="contact-form" action="/" method="post">
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="contactNumber">Contact Number</label>
+                <input type="tel" id="contactNumber" name="contactNumber" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="emailAddress">Email Address</label>
+                <input type="email" id="emailAddress" name="emailAddress" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div><br>
+    <%- include('partials/footer') %>
+</body>
+
+
+</html>

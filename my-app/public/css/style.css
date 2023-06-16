@@ -1,0 +1,50 @@
+/* Alejandro Manrique, 301230671, 06/15/2023 */
+.project_image {
+    width: 300px;  /* adjust as needed */
+    height: 200px; /* adjust as needed */
+}
+/* about image */
+.about_me{
+    width: 300px;
+    height: 500px;
+}
+.services_img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.services_img:hover{
+    transform: scale(1.05);
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    transition: all 0.3s ease;  /* Sets up a transition on all properties that will take 0.3s to complete */
+}
+
+.logo:hover {
+    transform: scale(1.1);  /* Make the logo 10% larger */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);  /* Add a drop shadow */
+}
+
+.nav-link {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;  /* You can replace this with the color of your choice */
+    transform: scale(1.1);
+  }
+  
+  .nav-link i {
+    margin-right: 5px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover i {
+    color: #007bff;  /* You can replace this with the color of your choice */
+  }
+  

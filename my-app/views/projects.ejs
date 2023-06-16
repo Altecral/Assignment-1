@@ -1,0 +1,33 @@
+<!-- Alejandro Manrique, 301230671, 06/15/2023 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects - Portfolio</title>
+    <%- include('partials/styles') %>
+</head>
+<body>
+    <%- include('partials/navbar') %>
+    <div class="container">
+        <h1>My Projects</h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="project_image" src="/images/pokedex.jpg" alt="Project 1">
+                <h2>Pokémon Pokedex</h2>
+                <p>A web application that allows users to search for Pokémon and view detailed information about them. The data is fetched from the PokéAPI.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="project_image" src="/images/quiz.jpg" alt="Project 2">
+                <h2>Pokémon Quiz Game</h2>
+                <p>A trivia game where users answer questions related to Pokémon. The game provides immediate feedback and calculates a score based on the number of correct answers.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="project_image" src="/images/trading.jpg" alt="Project 3">
+                <h2>Pokémon Trading Card Collection</h2>
+                <p>A web application that displays a collection of Pokémon trading cards. Users can search the collection, filter by attributes, and view detailed information about each card.</p>
+            </div>            
+        </div>
+    </div><br>
+    <%- include('partials/footer') %>
+</body>
+
+</html>
